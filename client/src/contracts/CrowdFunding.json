@@ -1,9 +1,9 @@
 {
   "contractName": "CrowdFunding",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol\":\"CrowdFunding\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol\":{\"keccak256\":\"0x008a6a2761c1adf37a3da6084f30f30ba9ee1a55829853de3a201b81870d48e0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ebe94a6bfc45792ff2342c0f86b97f88da137a09476b11d5a6305d5ac6859579\",\"dweb:/ipfs/QmZsUTdhoakjwyvQZoS669wtuVuvPccSKuESeuHKnCjArn\"]},\"/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol\":{\"keccak256\":\"0x4783f23c65388225018db1a510170636854e96b9042eba6146efb0758dd3a82b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://36530e3334ad8181df766c22e94b9859116a870597821f5278b0175052b5712c\",\"dweb:/ipfs/QmdAQ9P8Z7GtrM75DPBRvZRiaEWzskDNnu7XqQYvVViJLT\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x3b21f2c8d626de3b9925ae33e972d8bf5c8b1bffb3f4ee94daeed7d0679036e6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7f8d45329fecbf0836ad7543330c3ecd0f8d0ffa42d4016278c3eb2215fdcdfe\",\"dweb:/ipfs/QmXWLT7GcnHtA5NiD6MFi2CV3EWJY4wv5mLNnypqYDrxL3\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122060b561266c03940ac9b34c5f734ac130051015f01feefd08582339ba009369ae64736f6c63430007040033",
-  "deployedBytecode": "0x6080604052600080fdfea264697066735822122060b561266c03940ac9b34c5f734ac130051015f01feefd08582339ba009369ae64736f6c63430007040033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol\":\"CrowdFunding\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol\":{\"keccak256\":\"0x008a6a2761c1adf37a3da6084f30f30ba9ee1a55829853de3a201b81870d48e0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ebe94a6bfc45792ff2342c0f86b97f88da137a09476b11d5a6305d5ac6859579\",\"dweb:/ipfs/QmZsUTdhoakjwyvQZoS669wtuVuvPccSKuESeuHKnCjArn\"]},\"/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol\":{\"keccak256\":\"0xb8cb1adea945b60fde463c297b66c70043b946a5bd6c1dbcc89f6667c4db0f42\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://db1e613686f583d766b6c300d2eae07544b0e3da692439495bec53cff1dff49c\",\"dweb:/ipfs/QmZ6wzQrBWDcYFna2T9kzGCo56Hqu9fExrQSGZgAEhNVf1\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x3b21f2c8d626de3b9925ae33e972d8bf5c8b1bffb3f4ee94daeed7d0679036e6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7f8d45329fecbf0836ad7543330c3ecd0f8d0ffa42d4016278c3eb2215fdcdfe\",\"dweb:/ipfs/QmXWLT7GcnHtA5NiD6MFi2CV3EWJY4wv5mLNnypqYDrxL3\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220e2aae0bc99c1d64dd725d4da091cc02f0480afeec88e1c47b005eba5a61fb83664736f6c63430007040033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220e2aae0bc99c1d64dd725d4da091cc02f0480afeec88e1c47b005eba5a61fb83664736f6c63430007040033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
@@ -18,10 +18,10 @@
         7
       ],
       "Project": [
-        225
+        377
       ],
       "SafeMath": [
-        421
+        573
       ]
     },
     "id": 8,
@@ -45,7 +45,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 8,
-        "sourceUnit": 422,
+        "sourceUnit": 574,
         "src": "56:51:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -56,7 +56,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 8,
-        "sourceUnit": 226,
+        "sourceUnit": 378,
         "src": "108:23:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -80,10 +80,10 @@
               "id": 4,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 421,
+              "referencedDeclaration": 573,
               "src": "168:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$421",
+                "typeIdentifier": "t_contract$_SafeMath_$573",
                 "typeString": "library SafeMath"
               }
             },
@@ -115,10 +115,10 @@
           7
         ],
         "Project": [
-          225
+          377
         ],
         "SafeMath": [
-          421
+          573
         ]
       },
       "license": "MIT"
@@ -139,7 +139,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 422,
+          "SourceUnit": 574,
           "absolutePath": "@openzeppelin/contracts/math/SafeMath.sol",
           "file": "@openzeppelin/contracts/math/SafeMath.sol",
           "scope": 8,
@@ -154,7 +154,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 226,
+          "SourceUnit": 378,
           "absolutePath": "/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol",
           "file": "./Project.sol",
           "scope": 8,
@@ -190,7 +190,7 @@
               {
                 "attributes": {
                   "name": "SafeMath",
-                  "referencedDeclaration": 421,
+                  "referencedDeclaration": 573,
                   "type": "library SafeMath"
                 },
                 "id": 4,
@@ -234,7 +234,7 @@
     }
   },
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-02T18:11:01.905Z",
+  "updatedAt": "2021-01-02T18:30:26.878Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
