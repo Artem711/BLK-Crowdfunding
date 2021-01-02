@@ -1,15 +1,15 @@
 {
   "contractName": "CrowdFunding",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol\":\"CrowdFunding\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol\":{\"keccak256\":\"0x31913c14a860e6b71ee308c48c154e9383f61fa62c5c83681c1d696ca2d40262\",\"urls\":[\"bzz-raw://7dadaa8463deea93ab4b6f87a59cd428772c8e79a4e724923e596f6cbe14f1d1\",\"dweb:/ipfs/QmYmXkEaX9WLJiQUBUtGYLquVQVdx2e6NPJ721BFShJyBz\"]},\"/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol\":{\"keccak256\":\"0x5204425ee7e16667ff0b75a05046cbc5d5af0834506da6d085dc54b8a97c91df\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3fc9233f91feea66428df7eb3f24042ff9ac10241fa1c529c7e7ffb66ef42026\",\"dweb:/ipfs/QmfQWoCfBMgXXgcddXMHgfK4WJwZwjJc6dy9jhMQiJ2H1X\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x3b21f2c8d626de3b9925ae33e972d8bf5c8b1bffb3f4ee94daeed7d0679036e6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7f8d45329fecbf0836ad7543330c3ecd0f8d0ffa42d4016278c3eb2215fdcdfe\",\"dweb:/ipfs/QmXWLT7GcnHtA5NiD6MFi2CV3EWJY4wv5mLNnypqYDrxL3\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220bd5e82bd74228b306dd3cb8ba56440dc93e18088a9981f7e9c6e6bfdb38ac77664736f6c63430007040033",
-  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220bd5e82bd74228b306dd3cb8ba56440dc93e18088a9981f7e9c6e6bfdb38ac77664736f6c63430007040033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol\":\"CrowdFunding\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol\":{\"keccak256\":\"0x008a6a2761c1adf37a3da6084f30f30ba9ee1a55829853de3a201b81870d48e0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ebe94a6bfc45792ff2342c0f86b97f88da137a09476b11d5a6305d5ac6859579\",\"dweb:/ipfs/QmZsUTdhoakjwyvQZoS669wtuVuvPccSKuESeuHKnCjArn\"]},\"/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol\":{\"keccak256\":\"0x4783f23c65388225018db1a510170636854e96b9042eba6146efb0758dd3a82b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://36530e3334ad8181df766c22e94b9859116a870597821f5278b0175052b5712c\",\"dweb:/ipfs/QmdAQ9P8Z7GtrM75DPBRvZRiaEWzskDNnu7XqQYvVViJLT\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x3b21f2c8d626de3b9925ae33e972d8bf5c8b1bffb3f4ee94daeed7d0679036e6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7f8d45329fecbf0836ad7543330c3ecd0f8d0ffa42d4016278c3eb2215fdcdfe\",\"dweb:/ipfs/QmXWLT7GcnHtA5NiD6MFi2CV3EWJY4wv5mLNnypqYDrxL3\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122060b561266c03940ac9b34c5f734ac130051015f01feefd08582339ba009369ae64736f6c63430007040033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122060b561266c03940ac9b34c5f734ac130051015f01feefd08582339ba009369ae64736f6c63430007040033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
-  "sourceMap": "101:58:0:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "101:58:0:-:0;;;;;",
-  "source": "pragma solidity ^0.7.4;\nimport \"@openzeppelin/contracts/math/SafeMath.sol\";\nimport \"./Project.sol\";\n\ncontract CrowdFunding { \n    using SafeMath for uint256;\n}",
+  "sourceMap": "133:58:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "133:58:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.7.4;\nimport \"@openzeppelin/contracts/math/SafeMath.sol\";\nimport \"./Project.sol\";\n\ncontract CrowdFunding { \n    using SafeMath for uint256;\n}",
   "sourcePath": "/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol",
   "ast": {
     "absolutePath": "/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol",
@@ -18,13 +18,14 @@
         7
       ],
       "Project": [
-        59
+        225
       ],
       "SafeMath": [
-        255
+        421
       ]
     },
     "id": 8,
+    "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -36,7 +37,7 @@
           ".4"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:0"
+        "src": "32:23:0"
       },
       {
         "absolutePath": "@openzeppelin/contracts/math/SafeMath.sol",
@@ -44,8 +45,8 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 8,
-        "sourceUnit": 256,
-        "src": "24:51:0",
+        "sourceUnit": 422,
+        "src": "56:51:0",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -55,8 +56,8 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 8,
-        "sourceUnit": 60,
-        "src": "76:23:0",
+        "sourceUnit": 226,
+        "src": "108:23:0",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -79,20 +80,20 @@
               "id": 4,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 255,
-              "src": "136:8:0",
+              "referencedDeclaration": 421,
+              "src": "168:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$255",
+                "typeIdentifier": "t_contract$_SafeMath_$421",
                 "typeString": "library SafeMath"
               }
             },
             "nodeType": "UsingForDirective",
-            "src": "130:27:0",
+            "src": "162:27:0",
             "typeName": {
               "id": 5,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "149:7:0",
+              "src": "181:7:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -101,10 +102,10 @@
           }
         ],
         "scope": 8,
-        "src": "101:58:0"
+        "src": "133:58:0"
       }
     ],
-    "src": "0:159:0"
+    "src": "32:159:0"
   },
   "legacyAST": {
     "attributes": {
@@ -114,12 +115,13 @@
           7
         ],
         "Project": [
-          59
+          225
         ],
         "SafeMath": [
-          255
+          421
         ]
-      }
+      },
+      "license": "MIT"
     },
     "children": [
       {
@@ -133,11 +135,11 @@
         },
         "id": 1,
         "name": "PragmaDirective",
-        "src": "0:23:0"
+        "src": "32:23:0"
       },
       {
         "attributes": {
-          "SourceUnit": 256,
+          "SourceUnit": 422,
           "absolutePath": "@openzeppelin/contracts/math/SafeMath.sol",
           "file": "@openzeppelin/contracts/math/SafeMath.sol",
           "scope": 8,
@@ -148,11 +150,11 @@
         },
         "id": 2,
         "name": "ImportDirective",
-        "src": "24:51:0"
+        "src": "56:51:0"
       },
       {
         "attributes": {
-          "SourceUnit": 60,
+          "SourceUnit": 226,
           "absolutePath": "/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol",
           "file": "./Project.sol",
           "scope": 8,
@@ -163,7 +165,7 @@
         },
         "id": 3,
         "name": "ImportDirective",
-        "src": "76:23:0"
+        "src": "108:23:0"
       },
       {
         "attributes": {
@@ -188,12 +190,12 @@
               {
                 "attributes": {
                   "name": "SafeMath",
-                  "referencedDeclaration": 255,
+                  "referencedDeclaration": 421,
                   "type": "library SafeMath"
                 },
                 "id": 4,
                 "name": "UserDefinedTypeName",
-                "src": "136:8:0"
+                "src": "168:8:0"
               },
               {
                 "attributes": {
@@ -202,22 +204,22 @@
                 },
                 "id": 5,
                 "name": "ElementaryTypeName",
-                "src": "149:7:0"
+                "src": "181:7:0"
               }
             ],
             "id": 6,
             "name": "UsingForDirective",
-            "src": "130:27:0"
+            "src": "162:27:0"
           }
         ],
         "id": 7,
         "name": "ContractDefinition",
-        "src": "101:58:0"
+        "src": "133:58:0"
       }
     ],
     "id": 8,
     "name": "SourceUnit",
-    "src": "0:159:0"
+    "src": "32:159:0"
   },
   "compiler": {
     "name": "solc",
@@ -232,8 +234,7 @@
     }
   },
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-02T17:34:14.024Z",
-  "networkType": "ethereum",
+  "updatedAt": "2021-01-02T18:11:01.905Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
