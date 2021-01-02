@@ -1,4 +1,4 @@
-const CrowdFunding = require("../contracts/Index.sol")
+const CrowdFunding = artifacts.require("./CrowdFunding")
 
 module.exports = function (deployer) {
   deployer.deploy(CrowdFunding)

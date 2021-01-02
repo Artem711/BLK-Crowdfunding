@@ -1,0 +1,408 @@
+{
+  "contractName": "Project",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "amountGoal",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "creator",
+      "outputs": [
+        {
+          "internalType": "address payable",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"amountGoal\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"creator\",\"outputs\":[{\"internalType\":\"address payable\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol\":\"Project\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol\":{\"keccak256\":\"0x5204425ee7e16667ff0b75a05046cbc5d5af0834506da6d085dc54b8a97c91df\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3fc9233f91feea66428df7eb3f24042ff9ac10241fa1c529c7e7ffb66ef42026\",\"dweb:/ipfs/QmfQWoCfBMgXXgcddXMHgfK4WJwZwjJc6dy9jhMQiJ2H1X\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x3b21f2c8d626de3b9925ae33e972d8bf5c8b1bffb3f4ee94daeed7d0679036e6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7f8d45329fecbf0836ad7543330c3ecd0f8d0ffa42d4016278c3eb2215fdcdfe\",\"dweb:/ipfs/QmXWLT7GcnHtA5NiD6MFi2CV3EWJY4wv5mLNnypqYDrxL3\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060e58061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806302d05d3f1460375780630785001c146069575b600080fd5b603d6085565b604051808273ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b606f60a9565b6040518082815260200191505060405180910390f35b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6001548156fea264697066735822122068c870608c76057da60d43eb15e56df43d31c72e21af79b5722aaaaccef2c64964736f6c63430007040033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806302d05d3f1460375780630785001c146069575b600080fd5b603d6085565b604051808273ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b606f60a9565b6040518082815260200191505060405180910390f35b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6001548156fea264697066735822122068c870608c76057da60d43eb15e56df43d31c72e21af79b5722aaaaccef2c64964736f6c63430007040033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "109:313:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "109:313:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;292:30;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;328:22;;;:::i;:::-;;;;;;;;;;;;;;;;;;;292:30;;;;;;;;;;;;:::o;328:22::-;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.7.4;\nimport \"@openzeppelin/contracts/math/SafeMath.sol\";\n\ncontract Project {\n    using SafeMath for uint256;\n\n    // Data structures\n    enum State {\n        Fundarising, \n        Expired,\n        Succesful\n    }\n\n    // State variables\n    address payable public creator;\n    uint public amountGoal;  // required to reach at least this much, else everyone gets refund\n\n}",
+  "sourcePath": "/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol",
+  "ast": {
+    "absolutePath": "/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol",
+    "exportedSymbols": {
+      "Project": [
+        59
+      ],
+      "SafeMath": [
+        255
+      ]
+    },
+    "id": 60,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 46,
+        "literals": [
+          "solidity",
+          "^",
+          "0.7",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:2"
+      },
+      {
+        "absolutePath": "@openzeppelin/contracts/math/SafeMath.sol",
+        "file": "@openzeppelin/contracts/math/SafeMath.sol",
+        "id": 47,
+        "nodeType": "ImportDirective",
+        "scope": 60,
+        "sourceUnit": 256,
+        "src": "56:51:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 59,
+        "linearizedBaseContracts": [
+          59
+        ],
+        "name": "Project",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "id": 50,
+            "libraryName": {
+              "id": 48,
+              "name": "SafeMath",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 255,
+              "src": "138:8:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_SafeMath_$255",
+                "typeString": "library SafeMath"
+              }
+            },
+            "nodeType": "UsingForDirective",
+            "src": "132:27:2",
+            "typeName": {
+              "id": 49,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "151:7:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            }
+          },
+          {
+            "canonicalName": "Project.State",
+            "id": 54,
+            "members": [
+              {
+                "id": 51,
+                "name": "Fundarising",
+                "nodeType": "EnumValue",
+                "src": "209:11:2"
+              },
+              {
+                "id": 52,
+                "name": "Expired",
+                "nodeType": "EnumValue",
+                "src": "231:7:2"
+              },
+              {
+                "id": 53,
+                "name": "Succesful",
+                "nodeType": "EnumValue",
+                "src": "248:9:2"
+              }
+            ],
+            "name": "State",
+            "nodeType": "EnumDefinition",
+            "src": "188:75:2"
+          },
+          {
+            "constant": false,
+            "functionSelector": "02d05d3f",
+            "id": 56,
+            "mutability": "mutable",
+            "name": "creator",
+            "nodeType": "VariableDeclaration",
+            "scope": 59,
+            "src": "292:30:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address_payable",
+              "typeString": "address payable"
+            },
+            "typeName": {
+              "id": 55,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "292:15:2",
+              "stateMutability": "payable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address_payable",
+                "typeString": "address payable"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "functionSelector": "0785001c",
+            "id": 58,
+            "mutability": "mutable",
+            "name": "amountGoal",
+            "nodeType": "VariableDeclaration",
+            "scope": 59,
+            "src": "328:22:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 57,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "328:4:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 60,
+        "src": "109:313:2"
+      }
+    ],
+    "src": "32:390:2"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol",
+      "exportedSymbols": {
+        "Project": [
+          59
+        ],
+        "SafeMath": [
+          255
+        ]
+      },
+      "license": "MIT"
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.7",
+            ".4"
+          ]
+        },
+        "id": 46,
+        "name": "PragmaDirective",
+        "src": "32:23:2"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 256,
+          "absolutePath": "@openzeppelin/contracts/math/SafeMath.sol",
+          "file": "@openzeppelin/contracts/math/SafeMath.sol",
+          "scope": 60,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 47,
+        "name": "ImportDirective",
+        "src": "56:51:2"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            59
+          ],
+          "name": "Project",
+          "scope": 60
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "attributes": {
+                  "name": "SafeMath",
+                  "referencedDeclaration": 255,
+                  "type": "library SafeMath"
+                },
+                "id": 48,
+                "name": "UserDefinedTypeName",
+                "src": "138:8:2"
+              },
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 49,
+                "name": "ElementaryTypeName",
+                "src": "151:7:2"
+              }
+            ],
+            "id": 50,
+            "name": "UsingForDirective",
+            "src": "132:27:2"
+          },
+          {
+            "attributes": {
+              "canonicalName": "Project.State",
+              "name": "State"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "Fundarising"
+                },
+                "id": 51,
+                "name": "EnumValue",
+                "src": "209:11:2"
+              },
+              {
+                "attributes": {
+                  "name": "Expired"
+                },
+                "id": 52,
+                "name": "EnumValue",
+                "src": "231:7:2"
+              },
+              {
+                "attributes": {
+                  "name": "Succesful"
+                },
+                "id": 53,
+                "name": "EnumValue",
+                "src": "248:9:2"
+              }
+            ],
+            "id": 54,
+            "name": "EnumDefinition",
+            "src": "188:75:2"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "functionSelector": "02d05d3f",
+              "mutability": "mutable",
+              "name": "creator",
+              "scope": 59,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "address payable",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "address",
+                  "stateMutability": "payable",
+                  "type": "address payable"
+                },
+                "id": 55,
+                "name": "ElementaryTypeName",
+                "src": "292:15:2"
+              }
+            ],
+            "id": 56,
+            "name": "VariableDeclaration",
+            "src": "292:30:2"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "functionSelector": "0785001c",
+              "mutability": "mutable",
+              "name": "amountGoal",
+              "scope": 59,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 57,
+                "name": "ElementaryTypeName",
+                "src": "328:4:2"
+              }
+            ],
+            "id": 58,
+            "name": "VariableDeclaration",
+            "src": "328:22:2"
+          }
+        ],
+        "id": 59,
+        "name": "ContractDefinition",
+        "src": "109:313:2"
+      }
+    ],
+    "id": 60,
+    "name": "SourceUnit",
+    "src": "32:390:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.4+commit.3f05b770.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2021-01-02T17:29:53.214Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

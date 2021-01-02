@@ -1,0 +1,247 @@
+{
+  "contractName": "CrowdFunding",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol\":\"CrowdFunding\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol\":{\"keccak256\":\"0x31913c14a860e6b71ee308c48c154e9383f61fa62c5c83681c1d696ca2d40262\",\"urls\":[\"bzz-raw://7dadaa8463deea93ab4b6f87a59cd428772c8e79a4e724923e596f6cbe14f1d1\",\"dweb:/ipfs/QmYmXkEaX9WLJiQUBUtGYLquVQVdx2e6NPJ721BFShJyBz\"]},\"/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol\":{\"keccak256\":\"0x5204425ee7e16667ff0b75a05046cbc5d5af0834506da6d085dc54b8a97c91df\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3fc9233f91feea66428df7eb3f24042ff9ac10241fa1c529c7e7ffb66ef42026\",\"dweb:/ipfs/QmfQWoCfBMgXXgcddXMHgfK4WJwZwjJc6dy9jhMQiJ2H1X\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x3b21f2c8d626de3b9925ae33e972d8bf5c8b1bffb3f4ee94daeed7d0679036e6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7f8d45329fecbf0836ad7543330c3ecd0f8d0ffa42d4016278c3eb2215fdcdfe\",\"dweb:/ipfs/QmXWLT7GcnHtA5NiD6MFi2CV3EWJY4wv5mLNnypqYDrxL3\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220bd5e82bd74228b306dd3cb8ba56440dc93e18088a9981f7e9c6e6bfdb38ac77664736f6c63430007040033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220bd5e82bd74228b306dd3cb8ba56440dc93e18088a9981f7e9c6e6bfdb38ac77664736f6c63430007040033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "101:58:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "101:58:0:-:0;;;;;",
+  "source": "pragma solidity ^0.7.4;\nimport \"@openzeppelin/contracts/math/SafeMath.sol\";\nimport \"./Project.sol\";\n\ncontract CrowdFunding { \n    using SafeMath for uint256;\n}",
+  "sourcePath": "/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol",
+  "ast": {
+    "absolutePath": "/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol",
+    "exportedSymbols": {
+      "CrowdFunding": [
+        7
+      ],
+      "Project": [
+        59
+      ],
+      "SafeMath": [
+        255
+      ]
+    },
+    "id": 8,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.7",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "absolutePath": "@openzeppelin/contracts/math/SafeMath.sol",
+        "file": "@openzeppelin/contracts/math/SafeMath.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 8,
+        "sourceUnit": 256,
+        "src": "24:51:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol",
+        "file": "./Project.sol",
+        "id": 3,
+        "nodeType": "ImportDirective",
+        "scope": 8,
+        "sourceUnit": 60,
+        "src": "76:23:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 7,
+        "linearizedBaseContracts": [
+          7
+        ],
+        "name": "CrowdFunding",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "id": 6,
+            "libraryName": {
+              "id": 4,
+              "name": "SafeMath",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 255,
+              "src": "136:8:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_SafeMath_$255",
+                "typeString": "library SafeMath"
+              }
+            },
+            "nodeType": "UsingForDirective",
+            "src": "130:27:0",
+            "typeName": {
+              "id": 5,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "149:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            }
+          }
+        ],
+        "scope": 8,
+        "src": "101:58:0"
+      }
+    ],
+    "src": "0:159:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Library/Dev/Code/blk-crowdfunding/contracts/CrowdFunding.sol",
+      "exportedSymbols": {
+        "CrowdFunding": [
+          7
+        ],
+        "Project": [
+          59
+        ],
+        "SafeMath": [
+          255
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.7",
+            ".4"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 256,
+          "absolutePath": "@openzeppelin/contracts/math/SafeMath.sol",
+          "file": "@openzeppelin/contracts/math/SafeMath.sol",
+          "scope": 8,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 2,
+        "name": "ImportDirective",
+        "src": "24:51:0"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 60,
+          "absolutePath": "/Library/Dev/Code/blk-crowdfunding/contracts/Project.sol",
+          "file": "./Project.sol",
+          "scope": 8,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 3,
+        "name": "ImportDirective",
+        "src": "76:23:0"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            7
+          ],
+          "name": "CrowdFunding",
+          "scope": 8
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "attributes": {
+                  "name": "SafeMath",
+                  "referencedDeclaration": 255,
+                  "type": "library SafeMath"
+                },
+                "id": 4,
+                "name": "UserDefinedTypeName",
+                "src": "136:8:0"
+              },
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 5,
+                "name": "ElementaryTypeName",
+                "src": "149:7:0"
+              }
+            ],
+            "id": 6,
+            "name": "UsingForDirective",
+            "src": "130:27:0"
+          }
+        ],
+        "id": 7,
+        "name": "ContractDefinition",
+        "src": "101:58:0"
+      }
+    ],
+    "id": 8,
+    "name": "SourceUnit",
+    "src": "0:159:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.4+commit.3f05b770.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xbF1b38DD3640D27d256707048c36E154B7Da02A3",
+      "transactionHash": "0x373a8458fc803d487bd40ae82f10e4680e7e72a4bc91168b08f61803078bb7b7"
+    }
+  },
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2021-01-02T17:34:14.024Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
