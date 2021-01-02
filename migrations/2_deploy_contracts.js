@@ -1,5 +1,5 @@
-var SimpleStorage = artifacts.require("./SimpleStorage.sol");
+const CrowdFunding = require("../contracts/Index.sol")
 
-module.exports = function(deployer) {
-  deployer.deploy(SimpleStorage);
-};
+module.exports = function (deployer) {
+  deployer.deploy(CrowdFunding)
+}
